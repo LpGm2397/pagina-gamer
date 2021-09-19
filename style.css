@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* import */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+/* styles */
+
+html {
+  background: #36393f;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+h3,
+div,
+br {
+  user-select: none;
+}
+
+.pene {
+  width: 50px;
+  padding: 2px;
+}
+
+.top-bar {
+  background: #202225;
+}
+
+.body-0 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.title1 {
+  padding: 10px;
+  display: inline-flex;
+  user-select: none;
+}
+
+.tag {
+  margin-left: 40px;
+  width: 100px;
+  background: #61b5ff80;
+  border-radius: 5px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e0e0e0;
+}
+
+#hashtag {
+  width: 40px;
+  height: 40px;
+  padding-top: 3px;
+  padding-left: 10px;
+  opacity: 0.2;
+}
+
+.chat-bar {
+  background: #3b3f45;
+  color: #4e5158;
+  padding: 15px;
+  margin: 6px;
+  margin-left: 4px;
+  border-radius: 7px;
+  user-select: none;
+  top: 20px;
+  cursor: not-allowed;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  user-select: none;
+  border-radius: 30px;
+}
+
+.name {
+  padding-left: 8px;
+}
+
+.date {
+  padding-left: 8px;
+  color: #4e5158;
+}
+
+.fs-msg {
+  display: inline-flex;
+}
+
+.message {
+  padding-left: 45px;
+  padding-bottom: 20px;
+}
+
+.name2 {
+  padding-left: 8px;
+}
+
+.date2 {
+  padding-left: 8px;
+  color: #4e5158;
+}
+
+.message2 {
+  padding-left: 55px;
+  padding-bottom: 20px;
+}
+
+.terremierda {
+  margin-top: 15px;
+  margin-left: 10px;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.embed {
+  margin-left: 45px;
+  margin-right: 500px;
+  padding: 15px;
+  background: #2f3136;
+  border-color: #5b24ff;
+  border-left: 4px solid;
+  border-radius: 5px;
+  align-items: center;
+  min-width: 200px;
+}
+
+#yt-go {
+  width: 20px;
+  padding-top: 10px;
+}
+
+#dsc-go {
+  width: 20px;
+  padding-top: 10px;
+}
+
+#tw-go {
+  width: 20px;
+  padding-top: 10px;
+}
+
+.yt-go {
+  padding-bottom: 30px;
+}
+
+.tw-go {
+  padding-bottom: 30px;
+}
+
+.yt {
+  padding-top: 20px;
+}
+
+.tw {
+  padding-top: 20px;
+}
+
+.msg-1:hover {
+  background-color: #2f3136;
+}
+
+.dsc-button {
+  color: #fff;
+  background: #3e4146;
+  border-radius: 6px;
+  border-color: #3e4146;
+  user-select: none;
+}
+
+.yt-button {
+  color: #fff;
+  background: #3e4146;
+  border-radius: 6px;
+  border-color: #3e4146;
+  user-select: none;
+}
+
+.tw-button {
+  color: #fff;
+  background: #3e4146;
+  border-radius: 6px;
+  border-color: #3e4146;
+  user-select: none;
+}
+
+/* buttons hover */
+
+.dsc-button:hover {
+  opacity: 0.7;
+}
+
+.yt-button:hover {
+  opacity: 0.7;
+}
+
+.tw-button:hover {
+  opacity: 0.7;
+}
+
+/* el pep */
+
+#discord-link {
+  color: #00000000;
+  user-select: none;
+}
+
+#youtube-link {
+  color: #00000000;
+  user-select: none;
+}
+
+#twitter-link {
+  color: #00000000;
+  user-select: none;
+}
+
+.message-lpgm-2 {
+  display: flex;
+  padding-left: 45px;
+  padding-bottom: 20px;
+}
+
+.video {
+  margin-top: 10px;
+  margin-left: 45px;
+  border-radius: 15px;
+}
+
+.buttons {
+  margin-left: 45px;
+  margin-top: 10px;
+}
+
+.content {
+  margin-left: 10px;
+}
+
+.cacapenelink {
+  color: #2b7cff;
+}
+
+.cacapenelink:hover {
+  color: #2466d1;
+}
+
+.embed-2 {
+  margin-left: 45px;
+  margin-right: 500px;
+  padding: 15px;
+  background: #2f3136;
+  border-left-color: red;
+  border-left: 4px solid;
+  border-radius: 5px;
+  align-items: center;
+  min-width: 200px;
+}
